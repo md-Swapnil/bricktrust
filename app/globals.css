@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Google Fonts ─────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ivory-100 text-navy-900 antialiased;
+  }
+  ::selection {
+    @apply bg-gold-200 text-navy-900;
+  }
+}
+
+@layer components {
+  .container-bt {
+    @apply mx-auto max-w-8xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-widest2 text-gold-600;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-navy-900 px-6 py-3 text-sm font-medium text-ivory-50 transition-colors hover:bg-navy-700;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-gold-400 px-6 py-3 text-sm font-medium text-navy-900 transition-colors hover:bg-gold-300;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-navy-900/15 bg-transparent px-6 py-3 text-sm font-medium text-navy-900 transition-colors hover:bg-navy-900 hover:text-ivory-50;
+  }
+
+  .card {
+    @apply rounded-xl border border-stone-200 bg-white shadow-soft;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full bg-navy-900/85 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-ivory-100 backdrop-blur-sm;
+  }
+
+  .section-label {
+    @apply font-serif text-3xl sm:text-4xl text-navy-900;
+  }
+}
