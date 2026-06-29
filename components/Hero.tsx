@@ -16,7 +16,6 @@ export default function Hero() {
           className="object-cover opacity-100"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/70 to-navy-900/40" />
       </div>
 
       <div className="container-bt relative pb-32 pt-14 sm:pb-40 sm:pt-20">
