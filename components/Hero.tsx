@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-navy-900">
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=2000&auto=format&fit=crop"
+          src="/images/hero/hero-home.png"
           alt="India skyline at dusk"
           fill
           priority
