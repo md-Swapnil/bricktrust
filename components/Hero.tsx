@@ -13,7 +13,7 @@ export default function Hero() {
           alt="India skyline at dusk"
           fill
           priority
-          className="object-cover opacity-50"
+          className="object-cover opacity-100"
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/70 to-navy-900/40" />
